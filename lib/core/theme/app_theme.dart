@@ -108,7 +108,7 @@ abstract final class AppTheme {
         titleTextStyle:
             _textTheme.titleLarge?.copyWith(color: AppColors.textOnPrimary),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 1,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
         color: AppColors.surface,
@@ -202,7 +202,7 @@ abstract final class AppTheme {
         titleTextStyle:
             _textTheme.titleLarge?.copyWith(color: AppColors.darkOnSurface),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 1,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
         color: AppColors.darkSurfaceVariant,
